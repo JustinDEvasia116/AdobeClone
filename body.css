@@ -1,0 +1,147 @@
+.backgroundimage{
+    
+    width: 80%;
+}
+.elements{
+    display: flex;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(247, 245, 245);
+    border-bottom-style: solid;
+ 
+    margin-bottom: 20px;
+
+}
+.left-content {
+
+    width: 150px;
+     display: flex;
+    align-items: center;
+    margin-left:340px;
+    
+}
+.right-content {
+
+    flex: 1;
+    max-width: 570px;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+
+}
+.right-content ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+.contents{
+    font-weight: 700;
+    font-size: 16px;
+}
+.right-content a {
+    color: rgb(20, 115, 230);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+.basegrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    
+}
+.grid1{
+    background: url(Resources/images/photo1.jpg);
+    margin-left: 50px;
+    height: 500px;
+    
+}
+.grid2{
+    background: url(Resources/images/dt_photocat_riverflow2_700x525.jpeg);
+    
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 500px;
+    background-size: cover;
+    
+}
+.grid3{
+    background-color: #EB1000 ;
+    margin-right: 50px;
+    margin-left: 15px;
+    height: 500px;
+    background-size: 356px 500px
+}
+.grid1text1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.grid1text2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.grid3text1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+}
+
+.grid3text2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.grid1 a{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+}
+.grid2 a{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+}
+.grid3 a{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.gridimage{
+    width: 400px;
+    margin-top: 10px;
+}
+
+
+.right-content {
+
+    flex: 1;
+    max-width: 570px;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+
+}
+
+
+
+
+

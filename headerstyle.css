@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
+.header {
+    height: 65px;
+    display: flex;
+    justify-content: flex-start
+}
+
+.left-section {
+    background-color: white;
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.middle-section {
+    flex: 1;
+    background-color: white;
+    flex: 1;
+    max-width: 650px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-right: 350px;
+    align-items: center;
+
+}
+
+.right-section {
+    background-color: white;
+    width: 160px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 22px;
+    margin-left: 20px;
+
+}
+
+.adobe {
+    margin-left: 8px;
+    color: rgb(250, 15, 0);
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.middle-section ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+.mid-menus a {
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+.searchicon {
+    height: 18px;
+    margin-right: 25px;
+ cursor: pointer;
+    margin-left: 70px;
+
+}
+
+.signin {
+ cursor: pointer;
+    font-size: 14px;
+}
+
